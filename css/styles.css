@@ -225,6 +225,15 @@ section { padding: 80px 24px; }
 /* ── POR QUÉ NOSOTROS ── */
 #nosotros { background: #111111; }
 
+.nosotros-img-wrap {
+  border-radius: 12px; overflow: hidden;
+  margin-bottom: 40px; max-height: 320px;
+}
+.nosotros-img-wrap img {
+  width: 100%; height: 320px; object-fit: cover; object-position: center 40%;
+  display: block;
+}
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
